@@ -1,0 +1,39 @@
+*{
+    margin:0;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    /* background-image: linear-gradient(to right, rgb(253, 175, 166), salmon); */
+}
+
+.card{
+    width: 400px;
+    height: 300px;
+    display: grid;
+    background-color: rgba(255, 253, 251, 0.486);
+    place-items: center;
+    padding: 10px;
+    gap: 8px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.427);
+}
+
+button{
+    width: 80%;
+    height: 33px;
+    background-color: rgba(0, 0, 255, 0.153);
+    color: rgba(16, 19, 203, 0.977);
+    text-transform: capitalize;
+    border: 1px solid blue;
+    font-weight: 600;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+button:hover{
+    transform: scale(103%);
+}
+

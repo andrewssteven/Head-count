@@ -4,9 +4,7 @@ let countEl = document.querySelector('h2');
 let button = document.querySelector('button');
 let btn2 = document.querySelector('.d-btn');
 let saveBtn = document.getElementById('save-btn');
-let savedEl = document.getElementById('saved-count')
-let resetBtn = document.querySelector('.reset-btn')
- 
+let savedEl = document.getElementById('saved-count') 
 
 let count = 0
 // functional logic of the inccrement button
@@ -25,9 +23,6 @@ btn2.onclick = function(){
 saveBtn.onclick = function (){
     console.log("saved", count);
     savedEl.innerText += " " + count + " -"
-}
-
-resetBtn.onclick = function (){
     count = 0
     countEl.innerText = count
 }

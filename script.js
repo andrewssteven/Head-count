@@ -15,8 +15,10 @@ button.onclick = function(){
 
 // functional logic of the decrement button
 btn2.onclick = function(){
-    count -= 1
-    countEl.innerText = count
+    if(count > 0){
+        count -= 1
+        countEl.innerText = count
+    }
 }
 
 // functionality of the save button
